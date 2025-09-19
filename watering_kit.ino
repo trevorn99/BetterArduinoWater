@@ -174,9 +174,9 @@ void loop() {
 void read_value() {
   const int min_valid_reading = 360; // Updated minimum valid ADC reading
   const int max_valid_reading = 600; // Updated maximum valid ADC reading
-  const int num_samples = 10; // Number of samples for averaging
+  const int num_samples = 20; // Number of samples for averaging
   const int sample_delay = 10; // Delay between samples in ms
-  const int max_valid_range = 35; // Maximum allowed range for connected sensors
+  const int max_valid_range = 10; // Maximum allowed range for connected sensors
 
   // Sensor A0
   float total1 = 0;
